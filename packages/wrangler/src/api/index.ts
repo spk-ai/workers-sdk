@@ -1,6 +1,8 @@
 import { initApiDeployHelpersContext } from "./deploy-helpers-context";
+import { initProfileResolution } from "./profile-init";
 
 initApiDeployHelpersContext();
+initProfileResolution();
 
 export { unstable_dev } from "./dev";
 export type { Unstable_DevWorker, Unstable_DevOptions } from "./dev";
